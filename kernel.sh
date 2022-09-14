@@ -14,4 +14,4 @@ DTB="$KDIR/out/arch/arm64/boot/dts/qcom"
 
 cp ${IMG} ${cwd}
 cp ${DTBO} ${cwd}
-find ${DTB} -name "*.dtb" -exec cat {} + > ${cwd}/dtb
+find ${DTB} -name "*.dtb" -exec cat {} + > ${cwd}/dtb.img
